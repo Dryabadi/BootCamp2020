@@ -32,7 +32,7 @@ jobs:
         run: npm install -g Surge
         
       - name: run Surge
-        run: Surge ./Sohail-Bootcamp2020-Git.Surge.sh --token ${{secret.SURGE_TOKEN_SOHAIL_BOOTCAMP2020_GIT}}
+        run: Surge ./Sohail-Bootcamp2020-Git.Surge.sh --token ${{secrets.SURGE_TOKEN_SOHAIL_BOOTCAMP2020_GIT}}
                     
          
          
