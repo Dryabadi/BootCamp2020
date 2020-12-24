@@ -29,10 +29,10 @@ jobs:
         with:
           node-version: 14
       - name: Install Surge
-        run: npm install -g Surge
+        run: npm install -g surge
         
       - name: run Surge
-        run: Surge ./Sohail-Bootcamp2020-Git.Surge.sh --token ${{secrets.SURGE_TOKEN_SOHAIL_BOOTCAMP2020_GIT}}
+        run: surge ./Sohail-Bootcamp2020-Git.Surge.sh --token ${{secrets.SURGE_TOKEN_SOHAIL_BOOTCAMP2020_GIT}}
                     
          
          
